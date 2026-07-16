@@ -1,0 +1,10 @@
+version: "2"
+
+linters:
+  exclusions:
+    rules:
+      # Tests write to the in-memory responseWriter, whose Write never returns
+      # an error; checking it would only add noise to the test tables.
+      - path: _test\.go
+        linters:
+          - errcheck
