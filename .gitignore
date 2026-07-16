@@ -1,0 +1,18 @@
+# Coverage artifacts
+coverage.out
+
+# Editor / OS
+*.swp
+.DS_Store
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# Local tooling artifacts (skill runtime scaffolding dropped into the repo,
+# not part of this library)
+/.agents/
+/agent/
+/skills-lock.json
+
+# goenv version file
+.go-version
