@@ -15,15 +15,17 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 2 gives Codecov the parent commit it needs to attach the report.
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
       - uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
       - run: make check
-      - run: make cover-profile
+      - run: go test -race -covermode=atomic -coverprofile=coverage.txt ./...
       - uses: codecov/codecov-action@v7
         with:
-          files: coverage.out
           token: ${{ secrets.CODECOV_TOKEN }}
 
   lint:
