@@ -1,7 +1,7 @@
 # go-lambda-http-wrapper
 
 [![CI](https://github.com/iadams749/go-lambda-http-wrapper/actions/workflows/ci.yml/badge.svg)](https://github.com/iadams749/go-lambda-http-wrapper/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/iadams749/go-lambda-http-wrapper/branch/main/graph/badge.svg)](https://codecov.io/gh/iadams749/go-lambda-http-wrapper)
+[![codecov](https://codecov.io/github/iadams749/go-lambda-http-wrapper/graph/badge.svg?token=SPZRSYT2CN)](https://codecov.io/github/iadams749/go-lambda-http-wrapper)
 [![Go Reference](https://pkg.go.dev/badge/github.com/iadams749/go-lambda-http-wrapper.svg)](https://pkg.go.dev/github.com/iadams749/go-lambda-http-wrapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
