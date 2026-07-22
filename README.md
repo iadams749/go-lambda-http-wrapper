@@ -3,7 +3,6 @@
 [![CI](https://github.com/iadams749/go-lambda-http-wrapper/actions/workflows/ci.yml/badge.svg)](https://github.com/iadams749/go-lambda-http-wrapper/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/iadams749/go-lambda-http-wrapper/branch/main/graph/badge.svg)](https://codecov.io/gh/iadams749/go-lambda-http-wrapper)
 [![Go Reference](https://pkg.go.dev/badge/github.com/iadams749/go-lambda-http-wrapper.svg)](https://pkg.go.dev/github.com/iadams749/go-lambda-http-wrapper)
-[![Go Report Card](https://goreportcard.com/badge/github.com/iadams749/go-lambda-http-wrapper)](https://goreportcard.com/report/github.com/iadams749/go-lambda-http-wrapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Run a standard library `net/http` handler on AWS Lambda without rewriting it for

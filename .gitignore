@@ -13,6 +13,7 @@ coverage.out
 /.agents/
 /agent/
 /skills-lock.json
+/.claude/
 
 # goenv version file
 .go-version
